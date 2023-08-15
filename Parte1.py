@@ -1,6 +1,5 @@
-# Lista de sueldo de Juan por mes
+# Lista de sueldo de Juan por mes durante un año
 sueldo_de_Juan = [300, 300, 300, 300, 300, 300, 500, 500, 500, 500, 700, 700]
-
 
 def calcular_promedio_sueldo(sueldos):
     total_sueldos = sum(sueldos)
@@ -14,7 +13,6 @@ def evaluar_sueldo(sueldo_promedio):
         return "Sueldo normal"
     else:
         return "Sueldo mejor de lo normal"
-
 
 # Calcular el promedio de sueldos de Juan
 promedio_juan = calcular_promedio_sueldo(sueldo_de_Juan)
